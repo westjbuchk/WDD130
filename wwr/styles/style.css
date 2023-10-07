@@ -75,3 +75,6 @@ footer a:hover {
 footer p a:hover {
     text-decoration: underline;
 }
+.icon {
+    width: 80px;
+}
