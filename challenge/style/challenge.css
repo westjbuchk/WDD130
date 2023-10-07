@@ -1,0 +1,11 @@
+body{
+    background-color: pink;
+}
+.maincontent{
+    width: 450px;
+    margin: 0 auto;
+}
+h1, p, h2 {
+    text-align: center;
+    color: white;
+}
