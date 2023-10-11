@@ -1,0 +1,15 @@
+.top {
+    width: 100%;
+}
+.circles {
+    border-radius: 50%;
+    width: 350px;
+    border: 10px solid black;
+    margin: 20px;
+}
+body {
+    background-color: gray;
+}
+div {
+    text-align: center;
+}
