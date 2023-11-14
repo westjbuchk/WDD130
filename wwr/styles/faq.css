@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Crimson+Text&family=Grandstander:wght@100&family=Knewave&family=Merienda:wght@300&family=Open+Sans:wght@300&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+    color: #90e0ef;
+    text-decoration: none;
+    padding: 35px;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+    background-color: #00b4d8;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+body {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    background-color: #fcfbfb;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #396e94;
+}
+footer {
+    background-color: #396e94;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a:hover {
+    background-color: yellow;
+    color: #00b4d8;    
+}
+.book, .join {
+    background-color: #00b4d8;
+    color: #396e94;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+.faq1, .faq2, .faq3, .faq4, .faq5, .faq6 {
+    background-color: #396e94;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #396e94;
+}
+.home-title {
+    color: black;
+    font-family:"Caveat", "Merienda", "Grandstrander";
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.faq1 h2, .faq2 h2, .faq3 h2, .faq4 h2, .faq5 h2, .faq6 h2 {
+    color: white;
+    font-family: "Merienda", "Grandstrander", "Knewave";
+} 
+.faq1 p, .faq2 p, .faq3 p, .faq4 p, .faq5 p, .faq6 p {
+    color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+footer a {
+    color: #90e0ef;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #00b4d8;
+}
+.logo {
+    width: 80px;
+}
+#hero-img {
+    width: 100%;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+main {
+    font-family:"Crimson Text", "sans-serif", "Grandstrander";
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+footer .social img {
+    padding-top: 15px;
+}
+main section img {
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    text-align: center;
+    font-size: large;
+}
