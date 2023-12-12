@@ -56,8 +56,9 @@ body {
 #intro {
     grid-column: 1/4;
     grid-row: 1/2;
-    font-size: 30px;
-    margin: 20px
+    font-size: 25px;
+    margin: 20px;
+    font-family: "Exo 2", "Roboto Condensed";
 }
 #star-movie {
     grid-column: 1/3;
@@ -69,11 +70,11 @@ body {
     grid-column: 3/4;
     grid-row: 2/4;
     justify-self: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 #complicated_order {
     grid-column: 1/2;
-    font-size: 25px;
+    font-size: 20px;
 }
 #comp{
     margin-left: 50px;
@@ -100,20 +101,25 @@ body {
     grid-column: 3/4;
     grid-row: 3/4;
     margin-top: 160px;
-    font-size: 25px;
+    font-size: 20px;
 }
 h2,h3{
     margin-left: 100px;
+    font-family: "Abril Fatface";
 }
 #mov {
     justify-items: center;
 }
+li {
+    font-family: "Exo 2", "Roboto Condensed";
+}
 #ashokavmaul {
     grid-column: 2/4;
     grid-row: 3/4;
-    margin-top: 950px;
+    margin-top: 850px;
     margin-bottom: 0;
-    width: 95%;
+    width: 70%;
+    margin-left: 100px;
 }
 footer {
     background-color: #1F1F1F;
