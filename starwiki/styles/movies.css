@@ -51,7 +51,7 @@ body {
 .home-grid {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 300px, 300px, 300px;
+    grid-template-rows: 300px 300px 300px;
 }
 #intro {
     grid-column: 1/4;
