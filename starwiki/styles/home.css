@@ -44,7 +44,7 @@ nav a:hover {
 body {
     background-color: black;
     color: white;
-    font-size: 30px;
+    font-size: 29px;
     margin: 0;
     padding: 0;
 }
@@ -71,6 +71,7 @@ body {
     grid-row: 1/2;
     align-self: center;
     font-family: "Exo 2", "Roboto Condensed";
+    padding: 20px;
 }
 #star-title {
     grid-column: 4/7;
@@ -85,6 +86,7 @@ body {
     align-self: center;
     margin-right: 10px;
     font-family: "Exo 2", "Roboto Condensed";
+    padding: 20px;
 }
 #darth-vader {
     grid-column: 3/5;
@@ -97,6 +99,7 @@ body {
     margin: 5px;
     align-self: center;
     font-family: "Exo 2", "Roboto Condensed";
+    padding: 20px;
 }
 #background {
     height: 725px;
