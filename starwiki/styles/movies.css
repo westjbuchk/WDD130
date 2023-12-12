@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alumni+Sans+Collegiate+One&family=Exo+2:wght@500&family=Notable&family=Noto+Serif&family=Roboto+Condensed:wght@300&display=swap');
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+header {
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #1F1F1F;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: #90e0ef;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: yellow;
+    color: #00b4d8;    
+}
+.logo {
+    width: 100px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+body {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 300px, 300px, 300px;
+}
+#intro {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    font-size: 30px;
+    margin: 20px
+}
+#star-movie {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    width: 95%;
+    margin-left: 40px;
+}
+#simplified_order {
+    grid-column: 3/4;
+    grid-row: 2/4;
+    justify-self: center;
+    font-size: 25px;
+}
+#complicated_order {
+    grid-column: 1/2;
+    font-size: 25px;
+}
+#comp{
+    margin-left: 50px;
+}
+#movies {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font-size: 20px;
+    background-color: #334e30;
+    margin-bottom: 1450px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+#shows {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font-size: 20px;
+    margin-top: 450px;
+    background-color: #334e30;
+    margin-bottom: 1050px;
+    margin-right: 50px;
+}
+#release_order {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    margin-top: 160px;
+    font-size: 25px;
+}
+h2,h3{
+    margin-left: 100px;
+}
+#mov {
+    justify-items: center;
+}
+#ashokavmaul {
+    grid-column: 2/4;
+    grid-row: 3/4;
+    margin-top: 950px;
+    margin-bottom: 0;
+    width: 95%;
+}
+footer {
+    background-color: #1F1F1F;
+    color: white;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: #90e0ef;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #00b4d8;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: auto 0;
+}
+
